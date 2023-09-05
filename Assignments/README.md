@@ -1,6 +1,6 @@
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
-|       |             |                        |
+|   1    |  [P01](https://github.com/aelious/4143-PLC-Nagel/tree/main/Assignments/P01)       | Follows a tutorial to ensure proper Go environment. |
 |       |             |                        |
 |       |             |                        |
 |       |             |                        |
