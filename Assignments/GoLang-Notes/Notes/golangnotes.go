@@ -1,15 +1,11 @@
 // Download Go: https://go.dev/doc/install
 // Ensure proper installation by entering this in the terminal: go version
+// Download proper plugins if using VS Code. Switch to VS Code if not using VS Code.
 
 // Set up your environment:
 // ~~~~~~~~~~~~~~~~~~~~~~~~
-// Step 1: From the root directory of your environment, run: go work init
-// This will create a go.work module
-// Step 2: You will need to create a go.mod module inside of each directory that will require
-// go. To do this, navigate one level up from the directory and run: go mod init directoryName
-// Note: no .\ or "" will be used in Step 2 ALSO, ensure proper Go directory name, no spaces! >:-(
-// Step 3: You will now want to run go work use .\fileName\ on any folder that will contain
-// your go code.
+// Make sure you are in the correct directory in the terminal and run go mod url
+// Note: url can be any link, I've used the associated repo for conciseness
 
 // Running a program in Go:
 // ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -37,3 +33,8 @@ func main() {
 	// Here we are calling the function Println from the package fmt and passing it our greeting.
 	fmt.Println("Hello World.")
 }
+
+// So to run this program without creating an executable, I navigate to the directory it is in
+// on the command line and run: go run .\golangnotes.go (using tab to save time :-))
+// To run this program while creating an executable, you do the same steps but run: go build .\golangnotes.go
+// Then run the executable by typing .\golangnotes.exe in the terminal! Ezpz
