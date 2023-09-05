@@ -7,6 +7,8 @@
 // Make sure you are in the correct directory in the terminal and run go mod url
 // Note: url can be any link, I've used the associated repo for conciseness
 
+// Okay yeah so go work and go mod are kinda weird, I'll need to read more about them :-) 
+
 // Running a program in Go:
 // ~~~~~~~~~~~~~~~~~~~~~~~~
 // You have 2 options for running go files. You can compile them and create an executable
