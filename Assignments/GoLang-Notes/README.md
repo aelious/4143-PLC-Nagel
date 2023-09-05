@@ -9,4 +9,4 @@ Some helpful basics for programming in Go
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
 | 1 | [notes.go](https://github.com/aelious/4143-PLC-Nagel/blob/main/Assignments/GoLang-Notes/notes.go) | Hello World written in Go, includes tons of comments. |
-| 2 | [notes.exe](https://github.com/aelious/4143-PLC-Nagel/blob/main/Assignments/GoLang-Notes/notes.exe) | Proof that it ran... After several tries :'-) |
+| 2 | [go.mod](https://github.com/aelious/4143-PLC-Nagel/blob/main/Assignments/GoLang-Notes/go.mod) | Provides the necessary tools to run and compile go in this directory. |
