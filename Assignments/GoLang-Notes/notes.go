@@ -11,6 +11,8 @@
 // Step 3: You will now want to run go work use .\fileName\ on any folder that will contain
 // your go code.
 
+// Okay yeah so go work and go mod are kinda weird, I'll need to read more about them :-) 
+
 // Running a program in Go:
 // ~~~~~~~~~~~~~~~~~~~~~~~~
 // You have 2 options for running go files. You can compile them and create an executable
