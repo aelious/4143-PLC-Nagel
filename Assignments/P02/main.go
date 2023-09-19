@@ -8,11 +8,10 @@
 *  Semester:         Fall 2023
 *
 *  Description:
-*       This program uses an external package, fogleman/gg via github, to
-*	generate and manipulate images in fun, funky ways. This small snippet
+*       This program uses an external library, gg, provided by Fogleman via github. 
+*	It generates and manipulates images in fun, funky ways. This small snippet
 *	generates a blank png containing only a black rectangle. It also includes
-*	a separate constructor that can take a pre-existing image and make a copy
-*	of the image.
+*	a separate constructor that makes a copy of a pre-existing image.
 *
 *  Usage:
 *       N/A
