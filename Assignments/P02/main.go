@@ -1,6 +1,6 @@
 /*****************************************************************************
 *
-*  Author:           Stephanie Nagel
+*  Editor:           Stephanie Nagel
 *  Email:            aeliousx@gmail.com
 *  Label:            P02
 *  Title:            Baby Steps :-)
@@ -20,9 +20,10 @@
 *  Files:
 *       main.go     	: driver program
 *       go.mod			: necessary modules dependencies to run our go code
+*		go.sum 			: maintains checksum to keep packages from reinstalling
 *		imagemod		: package containing our image manipulator tools
-*       mascot_test.go  : tests output from BestMascot to ensure proper code
-*
+*       mustangs.png	: our created png image
+*		mustangs.jpg	: a copy of our png image stored as a jpg
 *
 *****************************************************************************/
 
