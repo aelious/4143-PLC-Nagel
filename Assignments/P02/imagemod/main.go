@@ -32,20 +32,11 @@
 package main
 
 import (
-	"fmt"                                // fmt is only included for error handling
-	"imagemod/imagemod/imageManipulator" // include imagemod and saving auto fills our path
+	"fmt"                       // fmt is only included for error handling
+	"imagemod/imageManipulator" // adding package name and saving instantly fills path!
 )
 
 func main() {
-	// Create an ImageManipulator instance of 800px by 600px
-	im := imageManipulator.NewImageManipulator(800, 600)
-
-	// Draw a rectangle
-	im.DrawRectangle(150, 50, 560, 411)
-
-	// Save the modified image to a file
-	im.SaveToFile("mustangs.png")
-
 	// Create an ImageManipulator instance with an existing image - using the path
 	newIm, err := imageManipulator.NewImageManipulatorWithImage("mustangs.png")
 	// Error handling in case the path couldn't be found.
@@ -54,6 +45,7 @@ func main() {
 		return
 	}
 
+	newIm.DrawRectangle(150, 50, 560, 411)
 	// Save the copied image to a file
 	newIm.SaveToFile("mustangs.jpg")
 }
