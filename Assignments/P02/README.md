@@ -16,3 +16,10 @@ Further implements and utilizes various Go tools including importing foreign pac
 | 6 | [mustangs.png](https://github.com/aelious/4143-PLC-Nagel/blob/main/Assignments/P02/mustangs.png) | Image created using the gg library. |
 | 7 | [mustangs.jpg](https://github.com/aelious/4143-PLC-Nagel/blob/main/Assignments/P02/mustangs.jpg) | Image created using gg library to copy pre-existing png image. |
 
+### Instructions:
+
+Ensure you have the latest version of Go installed! Download all files, except mustangs.jpg. Ensure that the gg library is successfully acquired.
+
+In the terminal from the imagemod directory, run the command: go run .\main.go
+
+This will create a copy of your mustangs.png and save it as a jpg and then will draw a fun lil' black rectangle over the top.
