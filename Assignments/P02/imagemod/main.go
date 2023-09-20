@@ -8,7 +8,7 @@
 *  Semester:         Fall 2023
 *
 *  Description:
-*       This program uses an external library, gg, provided by Fogleman via github. 
+*       This program uses an external library, gg, provided by Fogleman via github.
 *	It generates and manipulates images in fun, funky ways. This small snippet
 *	includesa separate constructor that makes a copy of a pre-existing image. A
 *	black rectangle is then drawn over the top of our image.
