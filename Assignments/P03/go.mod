@@ -1,4 +1,4 @@
-module test
+module github.com/aelious/4143-PLC-Nagel/tree/main/Assignments/P03
 
 go 1.21.0
 
