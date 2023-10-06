@@ -21,7 +21,7 @@ NOTE: I'm going to skip the inclusion of the go.mod and go.sum files in the dire
 
 Ensure you have go installed before trying these steps >:-(
 
-1. Download main.go and save it to a desired directory
+1. Download main.go and save it to a desired directory (Alternatively you can just download and run main.exe)
 
 1. Navigate to the directory that contains main.go in the terminal
 
