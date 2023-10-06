@@ -1,10 +1,7 @@
 package main
 
-import "github.com/aelious/imgMod"
+import "github.com/aelious/ColorTest"
 
 func main() {
-	imgMod.GetImage()
-	imgMod.GetColors()
-	imgMod.ConvertToGrayScale()
-	imgMod.CreatePicText()
+	ColorTest.RunTest()
 }
