@@ -2,7 +2,7 @@
 ### Stephanie Nagel
 ### Description:
 
-Utilize go get to import a package :-)
+Utilize go get to import a package and download and manipulate an image from the web! :-)
 
 ### Files
 
