@@ -21,9 +21,11 @@ NOTE: I'm going to skip the inclusion of the go.mod and go.sum files in the dire
 
 1. Download main.go
 
+1. Run go mod init someName
+
 1. Run go mod tidy and wait for updates and go.sum file creation
 
-1. Run using go run ./main.go
+1. Run go run ./main.go
 
 1. WATCH THE MAGIC HAPPEN 🤯
 
