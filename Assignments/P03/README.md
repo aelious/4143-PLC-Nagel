@@ -19,12 +19,10 @@ NOTE: I'm going to skip the inclusion of the go.mod and go.sum files in the dire
 
 ### Instructions
 
-Download main.go & go.mod files. 
+1. Download main.go
 
-(You can skip installing go.mod if you'd rather use a more proper implementation using go get -u github.com/aelious/imgMod --use whichever is your preference :-))
+1. Run go mod tidy and wait for updates and go.sum file creation
 
-Run go mod tidy and wait for updates and go.sum file creation
+1. Run using go run ./main.go
 
-Run using go run ./main.go
-
-WATCH THE MAGIC HAPPEN 🤯
+1. WATCH THE MAGIC HAPPEN 🤯
