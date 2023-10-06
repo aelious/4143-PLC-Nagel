@@ -14,6 +14,7 @@ Utilize go get to import a package and download and manipulate an image from the
 | 4 | [gray_image.png](https://github.com/aelious/4143-PLC-Nagel/blob/main/Assignments/P03/gray_image.png) | Image converted to grayscale. |
 | 5 | [hello.png](https://github.com/aelious/4143-PLC-Nagel/blob/main/Assignments/P03/hello.png)  | Image with "Hello, world!" written over the top.  |
 | 6 | [imgMod](https://github.com/aelious/imgMod)   | Repo containing our imgMod Package. |
+| 7 | [ColorTest](https://github.com/aelious/ColorTest) | Package to run a package :-) |
 
 NOTE: I'm going to skip the inclusion of the go.mod and go.sum files in the directory from here on out as they don't seem essential to the logic of the structure.
 
