@@ -37,4 +37,6 @@ I heavily studied Fogleman's gg library to properly structure my files and bette
 
 You can have multiple main files in one directory using the main package. The only way to differentiate which file is run is by using the specific filename.
 
-Also, go.mod doesn't seem necessary in the package declaration. Your package's files only need to be in the same directory and have the same package name. Similarly, if you're using a package from the web and it's included somewhere in the code in an import statement, the go.mod file doesn't need to be included with your main files either. You can simply init one, name it whatever, and use go mod tidy and it will pull in the necessary dependencies and create a go.sum file to keep track of their versions.
+Also, go.mod doesn't seem necessary in the package declaration. Your package's files only need to be in the same directory and have the same package name. Note that my package [imgMod](https://github.com/aelious/imgMod) did not require any mod/sum files. Similarly, if you're using a package from the web and it's included somewhere in the code in an import statement, the go.mod file doesn't need to be included with your main files either. You can simply init one, name it whatever, and use go mod tidy and it will pull in the necessary dependencies and create a go.sum file to keep track of their versions.
+
+An example of this use case can be seen in running this file via the instructions. You init your mod file after downloading the go code and then go mod tidy tells it which packages it needs to use go get on.
