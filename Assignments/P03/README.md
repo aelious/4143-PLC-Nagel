@@ -26,3 +26,9 @@ NOTE: I'm going to skip the inclusion of the go.mod and go.sum files in the dire
 1. Run using go run ./main.go
 
 1. WATCH THE MAGIC HAPPEN 🤯
+
+I heavily studied Fogleman's gg library to properly structure my files and better understand go.mod and how the main package is used.
+
+You can have multiple main files in one directory using the main package. The only way to differentiate which file is run is by using the specific filename.
+
+Also, go.mod doesn't seem necessary in the package declaration. Your package's files only need to be in the same directory and have the same package name. Similarly, if you're using a package from the web and it's included somewhere in the code in an import statement, the go.mod file doesn't need to be included with your main files either. You can simply init one, name it whatever, and use go mod tidy and it will pull in the necessary dependencies and create a go.sum file to keep track of their versions.
