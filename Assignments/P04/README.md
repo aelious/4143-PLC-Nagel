@@ -11,7 +11,7 @@ Concurrent downloads took 69.4071ms to complete.
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
-| 1 | [main.go](https://github.com/aelious/4143-PLC-Nagel/raw/main/Assignments/P04/main.go) | Main executable of our code. |
+| 1 | [main.go](https://github.com/aelious/4143-PLC-Nagel/blob/main/Assignments/P04/main.go) | Main executable of our code. |
 
 The packages used are all built in so there is no need to include a go.mod file for versioning control.
 
