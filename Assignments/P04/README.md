@@ -2,7 +2,7 @@
 ### Stephanie Nagel
 ### Description:
 
-Implement and compare concurrent downloads versus sequential downloads using Golang.
+Implement and compare concurrent downloads versus sequential downloads using Golang. In lieu of channels, I've opted for WaitGroups to ensure proper goroutine outputs, they seemed to fit the overall logic better.
 
 Sequential downloads took 575.5325ms to complete.
 
