@@ -5,6 +5,7 @@
 Implement and compare concurrent downloads versus sequential downloads using Golang.
 
 Sequential downloads took 860.5139ms to complete.
+
 Concurrent downloads took 69.4071ms to complete. 
 
 ### Files
