@@ -85,6 +85,7 @@ func main() {
 // Helper function to download and save a single image.
 func downloadImage(url, filename string) error {
 	response, err := http.Get(url)
+	// If the package has a problem getting the url, throws an error.
 	if err != nil {
 		fmt.Println("Error making the request:", err)
 		return err
@@ -99,6 +100,7 @@ func downloadImage(url, filename string) error {
 
 	// Create a new file to save the image
 	outputFile, err := os.Create(filename)
+	// If there's a problem making the file, throws an error.
 	if err != nil {
 		fmt.Println("Error creating the file:", err)
 		return err
@@ -107,6 +109,7 @@ func downloadImage(url, filename string) error {
 
 	// Copy the HTTP response body to the file
 	_, err = io.Copy(outputFile, response.Body)
+	// If it has an issue writing the image to the file, throws an error.
 	if err != nil {
 		fmt.Println("Error saving the image:", err)
 		return err
