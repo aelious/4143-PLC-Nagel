@@ -1,3 +1,27 @@
+/*****************************************************************************
+*
+*  Author:           Stephanie Nagel
+*  Email:            aeliousx@gmail.com
+*  Label:            P04
+*  Title:            Concurrent Image Downloader
+*  Course:           CMPS 4143
+*  Semester:         Fall 2023
+*
+*  Description:
+*   	This program downloads several images from the internet using sequential
+*	concurrent functions. It also measures how long each style takes to complete
+*  	its execution.
+*
+*  Usage:
+*       go run .\main.go
+*	> Creates 10 images of name con_image# & seq_image# and prints how long each
+*		implementation style took to complete.
+*
+*  Files:
+*       main.go     		: driver program
+*
+*****************************************************************************/
+
 package main
 
 import (
