@@ -9,8 +9,8 @@
 *
 *  Description:
 *   	This program downloads several images from the internet using sequential
-*	concurrent functions. It also measures how long each style takes to complete
-*  	its execution.
+*	and concurrent functions. It also measures how long each style takes to
+*  	complete its execution.
 *
 *  Usage:
 *       go run .\main.go
